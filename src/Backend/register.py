@@ -28,7 +28,7 @@ app.config["JWT_ACCESS_TOKEN_EXPIRES"] = timedelta(days=7)
 jwt = JWTManager(app)
 
 # --- Mongo Setup ---
-client = MongoClient("mongodb+srv://l3x3yy:itm5CMW2qJ8IW4N7@licenta.zsmwltq.mongodb.net/")
+client = MongoClient("")
 db = client["emergency_center"]
 users = db["users"]               
 centers = db["centers"]         
