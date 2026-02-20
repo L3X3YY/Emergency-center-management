@@ -1,3 +1,0 @@
-login
-calendar + assigning
-inbox + chat
